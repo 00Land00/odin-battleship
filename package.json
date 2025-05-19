@@ -10,7 +10,7 @@
     "deploy": "git subtree push --prefix dist origin gh-pages",
     "lint": "eslint src",
     "format": "prettier --write src",
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
